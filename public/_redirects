@@ -1,0 +1,5 @@
+# Alte Adressen der bisherigen Seite (andreaherold-coaching.de) auf die neuen Seiten umleiten
+/index.html       /                 301
+/impressum.html   /impressum/       301
+/datenschutz.html /datenschutz/     301
+/agb.html         /ablauf-und-preise/ 301

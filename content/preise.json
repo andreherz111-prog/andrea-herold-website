@@ -1,0 +1,19 @@
+{
+  "erstgespraech": {
+    "preis": "kostenlos",
+    "dauer": "etwa 60 Minuten"
+  },
+  "sitzung": {
+    "preis": "150 €",
+    "einheit": "pro Stunde"
+  },
+  "kindertest": {
+    "preis": "auf Anfrage",
+    "dauer": "",
+    "alter": ""
+  },
+  "zahlung": "Ratenzahlung ist auf Anfrage möglich.",
+  "endpreise": "Alle Preise sind Endpreise.",
+  "absage": "Bis 24 Stunden vorher können Sie kostenfrei absagen. Bei späterer Absage berechne ich 50 % des Honorars. In Notfällen finden wir eine Lösung.",
+  "kasse": "Coaching ist eine Selbstzahlerleistung. Die Kosten tragen Sie selbst."
+}

@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T12:00:00Z",
+  "title": "Design System: Andrea Herold – Coaching und Beratung",
+  "extensions": {
+    "colorMeta": {
+      "taupe": {
+        "role": "primary",
+        "displayName": "Feldweg-Taupe",
+        "canonical": "#7a6a57",
+        "tonalRamp": [
+          "oklch(15% 0.035 71.8)",
+          "oklch(27% 0.035 71.8)",
+          "oklch(39% 0.035 71.8)",
+          "oklch(51% 0.035 71.8)",
+          "oklch(63% 0.035 71.8)",
+          "oklch(75% 0.035 71.8)",
+          "oklch(86% 0.035 71.8)",
+          "oklch(95% 0.035 71.8)"
+        ]
+      },
+      "taupe-deep": {
+        "role": "primary",
+        "displayName": "Tiefes Taupe",
+        "canonical": "#5f5243",
+        "tonalRamp": [
+          "oklch(15% 0.029 71.0)",
+          "oklch(27% 0.029 71.0)",
+          "oklch(39% 0.029 71.0)",
+          "oklch(51% 0.029 71.0)",
+          "oklch(63% 0.029 71.0)",
+          "oklch(75% 0.029 71.0)",
+          "oklch(86% 0.029 71.0)",
+          "oklch(95% 0.029 71.0)"
+        ]
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "Salbei",
+        "canonical": "#7b876c",
+        "tonalRamp": [
+          "oklch(15% 0.042 127.1)",
+          "oklch(27% 0.042 127.1)",
+          "oklch(39% 0.042 127.1)",
+          "oklch(51% 0.042 127.1)",
+          "oklch(63% 0.042 127.1)",
+          "oklch(75% 0.042 127.1)",
+          "oklch(86% 0.042 127.1)",
+          "oklch(95% 0.042 127.1)"
+        ]
+      },
+      "gold": {
+        "role": "tertiary",
+        "displayName": "Logo-Gold",
+        "canonical": "#b48a3c",
+        "tonalRamp": [
+          "oklch(15% 0.108 80.3)",
+          "oklch(27% 0.108 80.3)",
+          "oklch(39% 0.108 80.3)",
+          "oklch(51% 0.108 80.3)",
+          "oklch(63% 0.108 80.3)",
+          "oklch(75% 0.108 80.3)",
+          "oklch(86% 0.108 80.3)",
+          "oklch(95% 0.108 80.3)"
+        ]
+      },
+      "gold-light": {
+        "role": "tertiary",
+        "displayName": "Helles Gold",
+        "canonical": "#e9dcc0",
+        "tonalRamp": [
+          "oklch(15% 0.040 86.1)",
+          "oklch(27% 0.040 86.1)",
+          "oklch(39% 0.040 86.1)",
+          "oklch(51% 0.040 86.1)",
+          "oklch(63% 0.040 86.1)",
+          "oklch(75% 0.040 86.1)",
+          "oklch(86% 0.040 86.1)",
+          "oklch(95% 0.040 86.1)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Morgennebel-Grund",
+        "canonical": "#f8f7f5",
+        "tonalRamp": [
+          "oklch(15% 0.003 84.6)",
+          "oklch(27% 0.003 84.6)",
+          "oklch(39% 0.003 84.6)",
+          "oklch(51% 0.003 84.6)",
+          "oklch(63% 0.003 84.6)",
+          "oklch(75% 0.003 84.6)",
+          "oklch(86% 0.003 84.6)",
+          "oklch(95% 0.003 84.6)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Papier",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.000 89.9)",
+          "oklch(27% 0.000 89.9)",
+          "oklch(39% 0.000 89.9)",
+          "oklch(51% 0.000 89.9)",
+          "oklch(63% 0.000 89.9)",
+          "oklch(75% 0.000 89.9)",
+          "oklch(86% 0.000 89.9)",
+          "oklch(95% 0.000 89.9)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinte",
+        "canonical": "#2e322b",
+        "tonalRamp": [
+          "oklch(15% 0.013 131.6)",
+          "oklch(27% 0.013 131.6)",
+          "oklch(39% 0.013 131.6)",
+          "oklch(51% 0.013 131.6)",
+          "oklch(63% 0.013 131.6)",
+          "oklch(75% 0.013 131.6)",
+          "oklch(86% 0.013 131.6)",
+          "oklch(95% 0.013 131.6)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Weiche Tinte",
+        "canonical": "#585c52",
+        "tonalRamp": [
+          "oklch(15% 0.017 124.9)",
+          "oklch(27% 0.017 124.9)",
+          "oklch(39% 0.017 124.9)",
+          "oklch(51% 0.017 124.9)",
+          "oklch(63% 0.017 124.9)",
+          "oklch(75% 0.017 124.9)",
+          "oklch(86% 0.017 124.9)",
+          "oklch(95% 0.017 124.9)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Linie",
+        "canonical": "#d9d5ca",
+        "tonalRamp": [
+          "oklch(15% 0.016 90.2)",
+          "oklch(27% 0.016 90.2)",
+          "oklch(39% 0.016 90.2)",
+          "oklch(51% 0.016 90.2)",
+          "oklch(63% 0.016 90.2)",
+          "oklch(75% 0.016 90.2)",
+          "oklch(86% 0.016 90.2)",
+          "oklch(95% 0.016 90.2)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Fehler",
+        "canonical": "#9a3b2e",
+        "tonalRamp": [
+          "oklch(15% 0.120 30.3)",
+          "oklch(27% 0.120 30.3)",
+          "oklch(39% 0.120 30.3)",
+          "oklch(51% 0.120 30.3)",
+          "oklch(63% 0.120 30.3)",
+          "oklch(75% 0.120 30.3)",
+          "oklch(86% 0.120 30.3)",
+          "oklch(95% 0.120 30.3)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Seitentitel der Unterseiten."
+      },
+      "display-card": {
+        "displayName": "Display Karte",
+        "purpose": "Leitsatz in der Hero-Karte."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Abschnittsüberschriften, Kontakt."
+      },
+      "headline-prose": {
+        "displayName": "Headline Text",
+        "purpose": "Zwischenüberschriften in Textseiten."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Türen, Listentitel, Schritte, FAQ-Fragen, mobiles Menü (24–28px)."
+      },
+      "price": {
+        "displayName": "Preis",
+        "purpose": "Preise, Versalziffern; mobil 30px, Tabellen 26px."
+      },
+      "wordmark": {
+        "displayName": "Wortmarke",
+        "purpose": "„ANDREA HEROLD“ in der Navigation; mobil 18px/0,08em."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Fließtext, 44–68ch."
+      },
+      "body-small": {
+        "displayName": "Body klein",
+        "purpose": "Anrufzeile, Preiserklärung, Fußzeile."
+      },
+      "button": {
+        "displayName": "Knopf",
+        "purpose": "Hauptknöpfe."
+      },
+      "nav-label": {
+        "displayName": "Menü",
+        "purpose": "Hauptmenü Desktop, Versalien."
+      },
+      "field-label": {
+        "displayName": "Feldbezeichnung",
+        "purpose": "Begriffe in Fakten- und Kontaktlisten, Versalien."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card",
+        "value": "0 24px 60px -34px rgba(40, 44, 36, .5)",
+        "purpose": "Nur die Hero-Karte über den Bildern."
+      },
+      {
+        "name": "menu",
+        "value": "0 24px 40px -28px rgba(40, 44, 36, .5)",
+        "purpose": "Nur das aufgeklappte mobile Menü."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state",
+        "value": "0.25s ease",
+        "purpose": "Farb- und Rahmenwechsel bei Knöpfen und Türen."
+      },
+      {
+        "name": "arrow-nudge",
+        "value": "transform .3s cubic-bezier(.2, .7, .2, 1); translateX(3px)",
+        "purpose": "Pfeil in Türen und Themenzeilen beim Hover."
+      },
+      {
+        "name": "faq-chevron",
+        "value": "transform .3s; rotate(45deg) → rotate(225deg)",
+        "purpose": "Goldener FAQ-Winkel beim Öffnen."
+      },
+      {
+        "name": "parallax-section",
+        "value": "translateY(-9%) → translateY(9%), scale(1.2); animation-timeline: view(); cover 0%–100%",
+        "purpose": "Abschnittsbilder gleiten im Rahmen (overflow: clip)."
+      },
+      {
+        "name": "parallax-hero",
+        "value": "translateY(0) → 14% links / 8% rechts, scale(1.3); animation-timeline: scroll(root); 0–100vh",
+        "purpose": "Zwei Hero-Bilder mit unterschiedlicher Tiefe."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Parallax und weiches Scrollen aus; Bilder ruhig bei scale(1.12)."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "980px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Hauptknopf",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Taupe gefüllt, eckig; für die Haupthandlung „Erstgespräch anfragen“.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Erstgespräch anfragen</a>",
+      "css": ".ds-btn { display:inline-block; background:var(--taupe, #7a6a57); color:#fff; border:0; padding:15px 26px; font:600 15px/1.2 Mulish, system-ui, sans-serif; letter-spacing:.02em; text-decoration:none; border-radius:0; cursor:pointer; transition:background .25s; } .ds-btn:hover { background:var(--taupe-d, #5f5243); } .ds-btn:focus-visible { outline:2px solid var(--taupe, #7a6a57); outline-offset:3px; }"
+    },
+    {
+      "name": "Rahmen-Knopf",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "1px Tinte-Rahmen; „Erstgespräch“ in der Navigation.",
+      "html": "<a class=\"ds-btn-o\" href=\"#\">Erstgespräch</a>",
+      "css": ".ds-btn-o { display:inline-block; border:1px solid var(--ink, #2e322b); color:var(--ink, #2e322b); padding:12px 20px; font:500 15px Mulish, system-ui, sans-serif; text-decoration:none; white-space:nowrap; transition:background .25s, color .25s; } .ds-btn-o:hover { background:var(--ink, #2e322b); color:var(--paper, #ffffff); } .ds-btn-o:focus-visible { outline:2px solid var(--taupe, #7a6a57); outline-offset:3px; }"
+    },
+    {
+      "name": "Tür",
+      "kind": "custom",
+      "refersTo": "door",
+      "description": "Einer der zwei Wege in der Hero-Karte, mit goldenem Pfeil.",
+      "html": "<a class=\"ds-door\" href=\"#\"><span><b>Für mich</b><small>Gewohnheiten, Druck, Stress</small></span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-door { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:16px 18px; border:1px solid var(--line, #d9d5ca); color:var(--ink, #2e322b); text-decoration:none; font-family:Mulish, system-ui, sans-serif; transition:border-color .25s, background .25s; max-width:320px; } .ds-door b { display:block; font:500 25px/1.15 'Cormorant Garamond', Georgia, serif; } .ds-door small { display:block; margin-top:3px; font-size:14.5px; color:var(--soft, #585c52); } .ds-door svg { flex:none; width:20px; height:20px; color:var(--gold, #b48a3c); transition:transform .3s cubic-bezier(.2,.7,.2,1); } .ds-door:hover { border-color:var(--gold, #b48a3c); background:#fbfaf8; } .ds-door:hover svg { transform:translateX(3px); } .ds-door:focus-visible { outline:2px solid var(--taupe, #7a6a57); outline-offset:3px; }"
+    },
+    {
+      "name": "Hero-Karte",
+      "kind": "card",
+      "refersTo": "hero-card",
+      "description": "Weiße Papierkarte über den Naturbildern, goldene Auftaktlinie, weicher tiefer Schatten.",
+      "html": "<div class=\"ds-card\"><h1>Blockaden lösen. Potenziale entfalten.</h1><p>Hypnose- und Mental-Coaching in Magdeburg.</p></div>",
+      "css": ".ds-card { background:var(--paper, #ffffff); padding:44px 48px; text-align:center; max-width:700px; box-shadow:0 24px 60px -34px rgba(40,44,36,.5); color:var(--ink, #2e322b); font:400 17px/1.65 Mulish, system-ui, sans-serif; } .ds-card::before { content:''; display:block; width:44px; height:1px; background:var(--gold, #b48a3c); margin:0 auto 26px; } .ds-card h1 { font:500 clamp(40px,4vw,60px)/1.04 'Cormorant Garamond', Georgia, serif; letter-spacing:-.015em; margin:0 0 18px; } .ds-card p { margin:0 auto; max-width:44ch; color:var(--soft, #585c52); }"
+    },
+    {
+      "name": "Themenliste",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Linien statt Kacheln: Titel in Cormorant, eine Zeile Erklärung, goldener Pfeil.",
+      "html": "<ul class=\"ds-list\"><li><a class=\"ds-row\" href=\"#\"><span><b>Rauchfrei werden</b><span>Die Zigarette nicht mehr brauchen.</span></span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a></li><li><a class=\"ds-row\" href=\"#\"><span><b>Essgewohnheiten ändern</b><span>Verstehen, wann und warum Sie essen.</span></span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a></li></ul>",
+      "css": ".ds-list { list-style:none; padding:0; margin:0; border-top:1px solid var(--line, #d9d5ca); font-family:Mulish, system-ui, sans-serif; } .ds-list li { border-bottom:1px solid var(--line, #d9d5ca); } .ds-row { display:flex; justify-content:space-between; align-items:center; gap:16px; padding:14px 0; text-decoration:none; color:var(--ink, #2e322b); } .ds-row b { display:block; font:500 25px/1.25 'Cormorant Garamond', Georgia, serif; } .ds-row span span { display:block; color:var(--soft, #585c52); font-size:16px; } .ds-row svg { flex:none; width:20px; height:20px; color:var(--gold, #b48a3c); transition:transform .3s cubic-bezier(.2,.7,.2,1); } .ds-row:hover b { text-decoration:underline; text-underline-offset:6px; text-decoration-color:var(--gold, #b48a3c); text-decoration-thickness:1px; } .ds-row:hover svg { transform:translateX(3px); } .ds-row:focus-visible { outline:2px solid var(--taupe, #7a6a57); outline-offset:3px; }"
+    },
+    {
+      "name": "Schritt",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Ablauf-Schritt: Ziffer in einem goldenen Ring.",
+      "html": "<ol class=\"ds-steps\"><li><h3>Erstgespräch</h3><p>Kostenlos, unverbindlich.</p></li><li><h3>Sitzung</h3><p>In der Praxis in Magdeburg.</p></li></ol>",
+      "css": ".ds-steps { list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(2,1fr); gap:32px; counter-reset:st; font-family:Mulish, system-ui, sans-serif; color:var(--ink, #2e322b); } .ds-steps li { counter-increment:st; text-align:center; } .ds-steps li::before { content:counter(st); display:grid; place-items:center; width:48px; height:48px; margin:0 auto 18px; border:1px solid var(--gold, #b48a3c); border-radius:50%; font:500 23px/1 'Cormorant Garamond', Georgia, serif; } .ds-steps h3 { font:500 28px/1.2 'Cormorant Garamond', Georgia, serif; margin:0 0 8px; } .ds-steps p { margin:0; color:var(--soft, #585c52); }"
+    },
+    {
+      "name": "Eingabefeld",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Eckiges Feld auf Grund-Fläche, Taupe-Fokus, Fehler mit Rahmen und Meldung.",
+      "html": "<label class=\"ds-f\">Name<input class=\"ds-input\" placeholder=\"Vor- und Nachname\"></label>",
+      "css": ".ds-f { display:flex; flex-direction:column; gap:6px; font:500 14.5px Mulish, system-ui, sans-serif; color:var(--ink, #2e322b); max-width:320px; } .ds-input { font:400 16px Mulish, system-ui, sans-serif; color:var(--ink, #2e322b); background:var(--bg, #f8f7f5); border:1px solid #c9c4b7; border-radius:0; padding:12px 14px; min-height:48px; } .ds-input:focus { outline:2px solid var(--taupe, #7a6a57); outline-offset:0; border-color:var(--taupe, #7a6a57); } .ds-input[aria-invalid=true] { border-color:var(--err, #9a3b2e); }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "",
+      "description": "Wortmarke, Versalien-Menü mit goldener Unterstreichung, Rahmen-Knopf.",
+      "html": "<nav class=\"ds-nav\"><span class=\"ds-brand\"><b>ANDREA HEROLD</b><small>COACHING &amp; BERATUNG</small></span><span class=\"ds-links\"><a href=\"#\" aria-current=\"page\">Hypnose-Coaching</a><a href=\"#\">Für Kinder</a><a href=\"#\">Kontakt</a></span></nav>",
+      "css": ".ds-nav { display:flex; align-items:center; justify-content:space-between; gap:24px; padding:0 24px; height:86px; background:color-mix(in srgb, var(--bg, #f8f7f5) 95%, transparent); border-bottom:1px solid var(--line, #d9d5ca); color:var(--ink, #2e322b); font-family:Mulish, system-ui, sans-serif; } .ds-brand b { display:block; font:500 24px/1 'Cormorant Garamond', Georgia, serif; letter-spacing:.16em; } .ds-brand small { display:block; margin-top:7px; font-size:11.5px; letter-spacing:.26em; color:var(--soft, #585c52); } .ds-links { display:flex; gap:26px; font-size:13px; letter-spacing:.12em; text-transform:uppercase; } .ds-links a { color:inherit; text-decoration:none; padding:10px 0; text-underline-offset:7px; text-decoration-color:var(--gold, #b48a3c); text-decoration-thickness:1px; } .ds-links a:hover, .ds-links a[aria-current=page] { text-decoration-line:underline; } .ds-links a:focus-visible { outline:2px solid var(--taupe, #7a6a57); outline-offset:3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Der Feldweg im Morgennebel",
+    "overview": "Still, hell und natürlich. Zwei versetzte Naturbilder, darüber eine weiße Papierkarte mit Andreas Leitsatz und zwei „Türen“: **Für mich** und **Für mein Kind**. Danach folgt eine ruhige Reihe von Abschnitten mit viel Luft, dünnen Linien und einem einzigen warmen Akzent: dem Gold aus Andreas Logo.\n\nDie Seite arbeitet mit Fläche statt mit Kästen. Abschnitte wechseln zwischen Off-White-Grund und weißem Papier; Inhalte werden durch 1px-Haarlinien gegliedert, nicht durch Kacheln oder Karten mit Schatten. Fotos tragen die Stimmung und gleiten beim Scrollen leicht in ihrem Rahmen. Text, Knöpfe und Formulare stehen still. Die Dichte ist niedrig, die Sprache konkret, die Form eckig und leise.",
+    "keyCharacteristics": [
+      "Zwei Flächen (Off-White-Grund, weißes Papier) im Wechsel statt Kachel-Raster.",
+      "Gold ausschließlich als Linie, Ring, Pfeil, Winkel oder Unterstreichung.",
+      "Cormorant Garamond 500 für alles, was gelesen werden *soll*; Mulish für alles, was erklärt.",
+      "Keine Rundungen außer dem Ring um Schrittnummern.",
+      "Echte Naturfotos mit CSS-Parallax; sonst kaum Bewegung."
+    ],
+    "rules": [
+      {
+        "name": "The Gold-ist-Strich Rule",
+        "body": "Gold erscheint nur als Linie, Ring, Pfeil, Winkel oder Unterstreichung, nie als Textfarbe und nie als Fläche.",
+        "section": "colors"
+      },
+      {
+        "name": "The Zwei-Flächen Rule",
+        "body": "Abschnitte wechseln zwischen Grund und Papier; ein Element auf Papier bekommt Grund als Hintergrund und umgekehrt (Notiz, Faktenbox). Weitere Flächenfarben gibt es nicht.",
+        "section": "colors"
+      },
+      {
+        "name": "The Leise-Versalien Rule",
+        "body": "Versalien mit Sperrung nur für Menü (13px), kleine Feldbezeichnungen (12,5px) und die Wortmarke. Nie für Knöpfe, Überschriften oder längere Texte.",
+        "section": "typography"
+      },
+      {
+        "name": "The Versalziffern Rule",
+        "body": "Überschriften und Preise in Cormorant Garamond setzen Ziffern als Versalziffern (`lining-nums`), Überschriften leicht negativ gesperrt (−0,015em) und ausbalanciert umbrochen.",
+        "section": "typography"
+      },
+      {
+        "name": "The Zwei-Schatten Rule",
+        "body": "Nur Dinge, die über etwas anderem schweben (Hero-Karte, mobiles Menü), bekommen Schatten. Alles andere liegt flach und wird durch Linien oder Flächenwechsel abgegrenzt.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** Abschnitte zwischen Grund (#f8f7f5) und Papier (#ffffff) wechseln lassen und Inhalte mit 1px-Linien (#d9d5ca) gliedern.",
+      "**Do** Gold (#b48a3c) nur als Linie, Ring, Pfeil, Winkel oder Unterstreichung einsetzen.",
+      "**Do** Überschriften, Titel und Preise in Cormorant Garamond 500 setzen, Text und Knöpfe in Mulish.",
+      "**Do** jede Bewegung auf Bilder (Parallax), Pfeile (3px) und den FAQ-Winkel beschränken und bei „Bewegung reduzieren“ abschalten.",
+      "**Do** Tap-Ziele mindestens 44px hoch halten und Formularfelder mit 16px Schrift setzen.",
+      "**Do** Platzhalter für fehlende Angaben sichtbar markieren („wird ergänzt“, gestrichelt gold), bis Andrea die Daten liefert."
+    ],
+    "donts": [
+      "**Don't** Gold als Textfarbe oder Fläche verwenden (2,95:1 auf Grund, zu wenig Kontrast).",
+      "**Don't** Kachel-Raster, Karten mit Schatten oder Gold-Verläufe wie auf der alten Seite bauen.",
+      "**Don't** Ecken runden; die einzige runde Form ist der Schritt-Ring.",
+      "**Don't** Text, Knöpfe oder Formulare bewegen, einrasten lassen oder das Scrollen bremsen.",
+      "**Don't** Versalien für Knöpfe, Überschriften oder längere Texte nutzen.",
+      "**Don't** Schriften von Google Fonts oder Adobe nachladen; alles liegt lokal.",
+      "**Don't** das Logo groß im Hero zeigen."
+    ]
+  }
+}
