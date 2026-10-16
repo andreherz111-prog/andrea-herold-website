@@ -6,7 +6,9 @@ import kontakt from '@/content/kontakt.json'
 
 type Fehler = { name?: string; kontakt?: string; ok?: string }
 
-// Versand über Netlify Forms (Formular-Vorlage: public/__forms.html)
+// Versand: auf Andreas Server über anfrage.php (NEXT_PUBLIC_FORM_ENDPOINT=/anfrage.php, siehe server/),
+// in der Netlify-Vorschau über Netlify Forms (Formular-Vorlage: public/__forms.html).
+const ENDPOINT = process.env.NEXT_PUBLIC_FORM_ENDPOINT || '/__forms.html'
 export default function ContactForm() {
   const form = useRef<HTMLFormElement>(null)
   const [fehler, setFehler] = useState<Fehler>({})
@@ -38,9 +40,9 @@ export default function ContactForm() {
     }
     setStatus('sending')
     try {
-      const res = await fetch('/__forms.html', {
+      const res = await fetch(ENDPOINT, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded', Accept: 'application/json' },
         body: new URLSearchParams(data as unknown as Record<string, string>).toString(),
       })
       if (!res.ok) throw new Error(String(res.status))

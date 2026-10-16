@@ -1,0 +1,53 @@
+# Andrea Herold – Apache-Einstellungen für den eigenen Server
+# (Voraussetzung: AllowOverride All für den Web-Ordner, Module rewrite, headers, expires, deflate)
+
+Options -Indexes
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Immer HTTPS und ohne www
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
+  RewriteRule ^ https://andreaherold-coaching.de%{REQUEST_URI} [R=301,L]
+
+  # Alte Adressen der bisherigen Seite
+  # (nur echte Aufrufe von /index.html, nicht die interne Startseite – sonst Endlosschleife)
+  RewriteCond %{THE_REQUEST} \s/index\.html[\s?]
+  RewriteRule ^index\.html$ / [R=301,L]
+  RewriteRule ^impressum\.html$ /impressum/ [R=301,L]
+  RewriteRule ^datenschutz\.html$ /datenschutz/ [R=301,L]
+  RewriteRule ^agb\.html$ /ablauf-und-preise/ [R=301,L]
+
+</IfModule>
+
+# Zugangsdaten und versteckte Dateien schützen
+<FilesMatch "^(\.|anfrage-config)">
+  Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  # Dateien mit Versions-Hash dürfen lange zwischengespeichert werden
+  <If "%{REQUEST_URI} =~ m#^/_next/static/#">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </If>
+  <If "%{REQUEST_URI} =~ m#^/img/#">
+    Header set Cache-Control "public, max-age=2592000"
+  </If>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/plain application/xml
+</IfModule>
+
+AddType image/webp .webp
+AddType font/woff2 .woff2

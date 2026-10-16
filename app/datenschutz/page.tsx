@@ -8,13 +8,15 @@ export const metadata: Metadata = {
   alternates: { canonical: '/datenschutz/' },
 }
 
+// Auf Andreas eigenem Server (npm run build:server) gilt ein anderer Hosting- und Formulartext als in der Netlify-Vorschau.
+const server = process.env.NEXT_PUBLIC_HOSTING === 'server'
+
 export default function Datenschutz() {
   return (
     <section className="s legal" aria-labelledby="h-ds">
       <div className="prose">
         <p className="draft">
-          Entwurf, keine Rechtsberatung. Passend zu den tatsächlich genutzten Diensten (Hosting und Formular bei Netlify, keine
-          Cookies, kein Tracking). Bitte vor dem Livegang prüfen lassen.
+          Entwurf, keine Rechtsberatung. Passend zu den tatsächlich genutzten Diensten (keine Cookies, kein Tracking). Bitte vor dem Livegang prüfen lassen.
         </p>
         <h1 id="h-ds" style={{ fontSize: 'clamp(40px, 4.4vw, 60px)', marginBottom: 24 }}>
           Datenschutzerklärung
@@ -35,21 +37,32 @@ export default function Datenschutz() {
         </p>
 
         <h2>Hosting</h2>
-        <p>
-          Die Website wird bei Netlify, Inc. (USA) gehostet. Beim Aufruf verarbeitet der Server technisch notwendige Daten wie
-          IP-Adresse, Datum und Uhrzeit, aufgerufene Seite und Browsertyp (Server-Logfiles), um die Seite sicher auszuliefern.
-          Rechtsgrundlage ist mein berechtigtes Interesse an einem sicheren Betrieb (Art. 6 Abs. 1 lit. f DSGVO). Netlify ist unter
-          dem EU-US Data Privacy Framework zertifiziert; mit Netlify wird ein Vertrag zur Auftragsverarbeitung geschlossen. Anschrift: Netlify,
-          Inc., 101 2nd Street, San Francisco, CA 94105, USA. Server-Logfiles werden nach <Tbd>Speicherdauer bei Netlify prüfen</Tbd>{' '}
-          gelöscht. <Tbd>Auftragsverarbeitungsvertrag mit Netlify vor dem Livegang abschließen</Tbd>
-        </p>
+        {server ? (
+          <p>
+            Die Website liegt auf einem gemieteten Server in Deutschland bei <Tbd>Anbieter des Servers (vermutlich IONOS SE, Elgendorfer
+            Str. 57, 56410 Montabaur) bestätigen</Tbd>. Beim Aufruf verarbeitet der Server technisch notwendige Daten wie IP-Adresse,
+            Datum und Uhrzeit, aufgerufene Seite und Browsertyp (Server-Logfiles), um die Seite sicher auszuliefern. Rechtsgrundlage
+            ist mein berechtigtes Interesse an einem sicheren Betrieb (Art. 6 Abs. 1 lit. f DSGVO). Mit dem Anbieter besteht ein
+            Vertrag zur Auftragsverarbeitung. Server-Logfiles werden nach <Tbd>Speicherdauer der Logfiles auf dem Server prüfen</Tbd>{' '}
+            gelöscht.
+          </p>
+        ) : (
+          <p>
+            Die Website wird bei Netlify, Inc. (USA) gehostet. Beim Aufruf verarbeitet der Server technisch notwendige Daten wie
+            IP-Adresse, Datum und Uhrzeit, aufgerufene Seite und Browsertyp (Server-Logfiles), um die Seite sicher auszuliefern.
+            Rechtsgrundlage ist mein berechtigtes Interesse an einem sicheren Betrieb (Art. 6 Abs. 1 lit. f DSGVO). Netlify ist unter
+            dem EU-US Data Privacy Framework zertifiziert; mit Netlify wird ein Vertrag zur Auftragsverarbeitung geschlossen.
+            Anschrift: Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, USA.
+          </p>
+        )}
 
         <h2>Kontaktformular, E-Mail und Telefon</h2>
         <p>
           Wenn Sie mir schreiben oder anrufen, verarbeite ich Ihre Angaben (Name, Telefonnummer oder E-Mail-Adresse, Ihr Anliegen
-          und Ihre Nachricht), um Ihre Anfrage zu beantworten. Nachrichten aus dem Formular werden über den Dienst Netlify Forms an
-          mich übermittelt, dort gespeichert und mir per E-Mail an mein Postfach bei der Telekom (t-online) weitergeleitet. Zum
-          Schutz vor Spam prüft Netlify eingehende Nachrichten automatisch. <Tbd>Spamfilter-Anbieter bei Netlify prüfen</Tbd>
+          und Ihre Nachricht), um Ihre Anfrage zu beantworten.{' '}
+          {server
+            ? 'Nachrichten aus dem Formular werden von dieser Website direkt per verschlüsselter E-Mail an mein Postfach bei der Telekom (t-online) geschickt. Auf dem Webserver selbst wird die Nachricht nicht gespeichert.'
+            : 'Nachrichten aus dem Formular werden über den Dienst Netlify Forms an mich übermittelt, dort gespeichert und mir per E-Mail an mein Postfach bei der Telekom (t-online) weitergeleitet.'}
         </p>
         <p>
           Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) und, wenn es um einen Termin geht, die Anbahnung eines

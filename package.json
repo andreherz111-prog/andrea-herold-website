@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npx serve out"
+    "start": "npx serve out",
+    "build:server": "NEXT_PUBLIC_FORM_ENDPOINT=/anfrage.php NEXT_PUBLIC_HOSTING=server next build && node scripts/server-dateien.mjs"
   },
   "dependencies": {
     "next": "16.4.2",
